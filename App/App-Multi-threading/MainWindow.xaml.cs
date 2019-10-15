@@ -66,6 +66,7 @@ namespace App_Multi_threading
                 {
                     Dispatcher.Invoke(()=>AggiornaInterfaccia(j));
                     Thread.Sleep(1000);
+
                 }
             }
         }
