@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFB900FF" Offset="0"/>
+                <GradientStop Color="#FF0CFF00" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="lbl_risultato" Content="Label" HorizontalAlignment="Left" Margin="335,140,0,0" VerticalAlignment="Top" Width="115" Height="55" FontSize="18"/>
+        <Button x:Name="btn_task" Content="Click" HorizontalAlignment="Left" Margin="335,215,0,0" VerticalAlignment="Top" Width="115" Height="45" FontSize="18" Click="btn_task_Click"/>
+
     </Grid>
 </Window>
